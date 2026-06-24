@@ -1,4 +1,4 @@
-package runner.huggy.fanficfx.objects;
+package runner.huggy.fanficfx.objects.enums;
 
 public enum FandomType {
     MOVIE,
