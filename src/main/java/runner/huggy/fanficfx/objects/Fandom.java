@@ -2,7 +2,7 @@ package runner.huggy.fanficfx.objects;
 
 import org.jetbrains.annotations.NotNull;
 
-import java.sql.Date;
+import java.util.Date;
 
 public class Fandom {
     private int idFandom;
