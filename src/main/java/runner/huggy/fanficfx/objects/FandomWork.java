@@ -8,7 +8,7 @@ import java.util.Date;
 public class FandomWork {
     private int idWork;
     private String nameWork;
-    private Text summaryWork;
+    private String summaryWork;
     private Date releaseDate;
     private Date modifiedDate;
     private FandomStatus status;
@@ -22,7 +22,7 @@ public class FandomWork {
      * @param modifiedDate the date where the work is modified
      * @param status the status of the work
      */
-    public FandomWork(int idWork, String nameWork, Date releaseDate, Text summaryWork, Date modifiedDate, FandomStatus status) {
+    public FandomWork(int idWork, String nameWork, Date releaseDate, String summaryWork, Date modifiedDate, FandomStatus status) {
         this.idWork = idWork;
         this.nameWork = nameWork;
         this.releaseDate = releaseDate;
@@ -47,11 +47,11 @@ public class FandomWork {
         this.nameWork = nameWork;
     }
 
-    public Text getSummaryWork() {
+    public String getSummaryWork() {
         return summaryWork;
     }
 
-    public void setSummaryWork(Text summaryWork) {
+    public void setSummaryWork(String summaryWork) {
         this.summaryWork = summaryWork;
     }
 
