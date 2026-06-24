@@ -1,6 +1,7 @@
 package runner.huggy.fanficfx.objects;
 
 import org.jetbrains.annotations.NotNull;
+import runner.huggy.fanficfx.objects.enums.FandomType;
 
 import java.util.Date;
 

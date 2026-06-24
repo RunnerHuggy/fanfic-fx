@@ -2,7 +2,7 @@ package objects;
 
 import org.junit.jupiter.api.Test;
 import runner.huggy.fanficfx.objects.Fandom;
-import runner.huggy.fanficfx.objects.FandomType;
+import runner.huggy.fanficfx.objects.enums.FandomType;
 
 import java.util.Date;
 
